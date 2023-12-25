@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Qahiri&display=swap');
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root
+{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+}
+
+.title h1 span{
+  color: var(--primary);
+}
+.span2{
+  margin-left: 10px;
+}
+.title h1{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Permanent Marker', cursive;
+}
+
+a.active_class{
+  color:rgba(255, 255, 255, 0.801);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+.menu_style{
+  text-decoration: none;
+  width: 100%;
+  color:white;
+  line-height: 80px;
+  background-color: #20232a;
+  display: flex;
+  justify-content: space-around;
+}
+
+button.btn{
+  color: #e0e0e0;
+  text-decoration: none;
+  padding:0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all .3s ease;
+}
+
+button:hover{
+  background-color: var(--primary);
+}
+
+button.btn-primary{
+  font-weight: 600%;
+  color: #070606;
+  background-color: var(--primary);
+  border: 1px solid black;
+}
+
+
+button.btn-primary1{
+  font-weight: 600%;
+  color: #070606;
+  background-color: var(--primary);
+  border: 1px solid black;
+}
+
+button.btn-primaryy{
+  font-weight: 600%;
+  color: #070606;
+  background-color: var(--primary);
+  border: 1px solid black;
+  border-style: none;
+}
+.Cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+
+img.card-img-top{
+  background-size: cover;
+}
+
+/* about */
+p.para{
+  font-family: 'Zen Antique Soft', serif;
+  text-align: justify;
+  margin: 2rem 2rem;
+  font-size:large;
+  font-weight: 500;
+  background: blanchedalmond;
+  border: 2px solid red;
+}
+
+h1.head{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+@media (min-width: 40rem) {
+  .card {
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 56rem) {
+  .card {
+    width: 33.3333%;
+  }
+}
